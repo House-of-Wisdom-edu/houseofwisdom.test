@@ -265,9 +265,8 @@ button {
 }
 
 /*Common things in all sections*/
+#visual_section,
 #about_section,
-#portfolio_section,
-#team_section,
 #services_section,
 #contactus_section {
 	font-family: 'Open Sans', sans-serif;
@@ -284,12 +283,13 @@ button {
 
 .diffSection .content {
 	margin: 10px;
-	text-align: center;
+	text-align: justify;
+	text-align-last: center;
 	padding: 10px 100px;
 	font-size: 1.1em;
 }
 
-/*PORTFOLIO*/
+/*ABOUTUS*/
 .extra {
 	width: 100%;
 }
