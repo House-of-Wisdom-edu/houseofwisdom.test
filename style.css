@@ -349,7 +349,7 @@ button {
 	color: #2E3D49;
 }
 
-/*ABOUT*/
+/*VISUAL*/
 .about-content {
 	width: 100%;
 	position: relative;
@@ -576,101 +576,6 @@ form textarea {
 	font-size: 12px;
 	cursor: pointer;
 }
-
-/*REVIEW SECTION*/
-#makeitfull {
-	display: flex;
-	justify-content: center;
-	transform: translateY(35px);
-}
-
-#makeitfull img {
-	width: 50px;
-}
-
-.review {
-	background: #F8F8F8;
-	width: 100%;
-}
-
-.rev-container {
-	padding: 10px 10%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-}
-
-.rev-container .rev-card {
-	/*overflow: hidden;*/
-	width: 550px;
-	height: 240px;
-	margin-bottom: 40px;
-	background: #fff;
-	display: flex;
-	padding: 10px;
-	box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
-}
-
-.rev-card:hover {
-	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
-}
-
-.identity {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	padding: 10px;
-}
-
-.identity img {
-	width: 120px;
-	height: 120px;
-	transition-duration: .8s;
-	border-radius: 50%;
-}
-
-.identity img:hover {
-	transform: scale(2.2);
-	border-radius: 0px;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-}
-
-.identity p {
-	width: 150px;
-	font-weight: bold;
-	color: #2E3D49;
-	text-align: center;
-}
-
-.identity h6 {
-	width: 150px;
-	text-align: center;
-}
-
-.identity .rating img {
-	width: 12px;
-	height: 12px;
-	margin-right: 5px;
-}
-
-.rev-cont {
-	overflow: hidden;
-}
-
-.rev-cont #title {
-	padding: 10px;
-	color: #2E3D49;
-	font-weight: bold;
-}
-
-.rev-cont #content {
-	padding: 10px;
-	font-size: .9em;
-	color: #2E3D49;
-	line-height: 22px;
-	text-align: justify;
-}
-
 
 
 
