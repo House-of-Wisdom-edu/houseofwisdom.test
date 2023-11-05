@@ -768,3 +768,26 @@ footer .btn:hover {
 		width: 100%;
 	}
 }
+
+#visual_learn {
+	font-size: 50px;
+	padding: 100px;
+}
+
+@media screen and (max-width: 760px) {
+	#visual_learn {
+		font-size: 25px;
+		padding: 72px;
+	}
+}
+
+#sideImage {
+	width: 700px;
+}
+
+@media screen and (max-width: 760px) {
+	#sideImage {
+		width: 410px;
+	}
+
+}
