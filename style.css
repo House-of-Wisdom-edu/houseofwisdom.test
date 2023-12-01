@@ -285,7 +285,7 @@ button {
 	margin: 10px;
 	text-align: justify;
 	text-align-last: center;
-	padding: 10px 100px;
+	padding: 10px 50px;
 	font-size: 1.1em;
 }
 
@@ -362,7 +362,7 @@ button {
 .about-content .side-text {
 	width: 550px;
 	padding: 50px 40px;
-	background: #fff;
+	background: #FBFBFB;
 	box-shadow: 2px 0 100px rgba(0, 0, 0, 0.3);
 	border-radius: 5px;
 	text-align: justify;

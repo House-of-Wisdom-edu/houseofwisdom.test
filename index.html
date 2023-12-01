@@ -20,6 +20,15 @@
 			}
 		})
 	</script>
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KZHQHLD73Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KZHQHLD73Z');
+</script>
 </head>
 
 <body>
@@ -31,7 +40,7 @@
 				<li><a class="active" href="">Home</a></li>
 				<li><a href="#services_section">Services</a></li>
 				<li><a href="#about_section">About Us</a></li>
-				<li><a href="https://github.com/House-of-Wisdom-edu">Github</a></li>
+				<li><a href="https://github.com/House-of-Wisdom-edu" target="_blank">Github</a></li>
 				<li><a href="#contactus_section">Contact</a></li>
 			</ul>
 			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img
@@ -46,8 +55,7 @@
 					learning is always an adventure!</h5>
 				<div class="play">
 					<img src="images/icon/play.png" alt="play"><span><a
-							href="https://www.linkedin.com/feed/update/urn:li:activity:7103452612233953280"
-							target="_blank">Watch Now</a></span>
+							href="https://youtu.be/vKLnuWCxBVo?si=SEQg7T5-ntntxoNa" target="_blank">Watch Now</a></span>
 				</div>
 			</div>
 			<div class="svg-image">
@@ -81,14 +89,14 @@
 		<div class="side-menu" id="side-menu">
 			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
 			<div class="user">
-				<img src="images/icon//name.png" alt="Username">
-				<p>abuzar0013</p>
+				<img id="photoId" src="images/icon/name.png" alt="Username">
+				<p id="fullName">abuzar0013</p>
 			</div>
 			<ul>
 				<li><a id="android-get-started" href="login.html">Get Started</a></li>
 				<li><a href="#services_section">Services</a></li>
 				<li><a href="#about_section">About Us</a></li>
-				<li><a href="#team_section">Github</a></li>
+				<li><a href="https://github.com/House-of-Wisdom-edu" target="_blank">Github</a></li>
 				<li><a href="#contactus_section">Contact</a></li>
 			</ul>
 		</div>
@@ -167,20 +175,17 @@
 				<p>Certification Courses</p>
 			</div>
 		</a>
-		<!-- <a href="#"><div class="s-card"><img src="images/icon/p3.png"><p>Performance and Ranking Report</p></div></a> -->
-		<!-- <a href="#contactus_section"><div class="s-card"><img src="images/icon/discussion.png"><p>Discussion with Our Tutors & Mentors</p></div></a> -->
 		<a href="subjects/quiz.html">
 			<div class="s-card"><img src="images/icon/q1.png">
 				<p>Daily Brain Teasing Questions to Improve IQ</p>
 			</div>
 		</a>
-		<!-- <a href="#contactus_section"><div class="s-card"><img src="images/icon/help.png"><p>24x7 Online Support</p></div></a> -->
 	</div>
 
 	<!-- ABOUT_SECTION -->
 	<div class="diffSection" id="about_section">
 		<center>
-			<p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">About Us</p>
+			<p style="font-size: 49px; padding: 100px; padding-bottom: 40px;">About Us</p>
 		</center>
 		<div class="content">
 			<p>
@@ -254,9 +259,8 @@
 				<img id="footer-how-logo" src="images/icon/logo - Copy.png">
 				<div class="logo"></div>
 				<div class="social-media">
-					<a href="https://github.com/House-of-Wisdom-edu"><img src="images/icon/github.1024x994.png"></a>
-					<a href="https://www.linkedin.com/company/99935953/admin/feed/posts/"><img
-							src="images/icon/linkedin.png"></a>
+					<a href="https://github.com/House-of-Wisdom-edu" target="_blank"><img src="images/icon/github.1024x994.png"></a>
+					<a href="https://www.linkedin.com/company/house-of-wisdom.online/" target="_blank"><img src="images/icon/linkedin.png"></a>
 					<a href="mailto:how2107@gmail.com"><img src="images/icon/email.png"></a>
 					<a href="#"><img src="images/icon\ytube.png"></a>
 				</div><br><br>
@@ -277,5 +281,5 @@
 	</footer>
 
 </body>
-
+<script type="module" src="./script/index.js"></script>
 </html>
